@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# If using Django migrations but want to exclude pyc
+**/migrations/*.pyc
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# dotenv
+.env
+.env.*
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+gunicorn.pid
+
+
+# Local dev
+local_settings.py
