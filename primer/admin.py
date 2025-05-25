@@ -4,8 +4,6 @@ from django.contrib import admin
 from django.db.models import Count
 from .models import Cake, Baker
 
-# Register your models here.
-
 class BakerAdmin(admin.ModelAdmin):
     def has_delete_permission(self, request, obj=None):
         return request.user.is_superuser
